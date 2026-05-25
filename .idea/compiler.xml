@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="employee-stream-processing-system" />
+        <module name="banking-transaction-analyzer" />
         <module name="e-commerce-cart-processing" />
       </profile>
     </annotationProcessing>
