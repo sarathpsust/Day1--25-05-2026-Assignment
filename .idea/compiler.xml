@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="employee-stream-processing-system" />
-        <module name="banking-transaction-analyzer" />
-        <module name="e-commerce-cart-processing" />
+        <module name="student-management" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="banking-transaction-analyzer" target="17" />
+      <module name="e-commerce-cart-processing" target="17" />
+      <module name="employee-stream-processing-system" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
