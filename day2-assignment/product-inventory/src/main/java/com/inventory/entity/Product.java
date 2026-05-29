@@ -1,6 +1,5 @@
 package com.inventory.entity;
 
-
 public class Product {
 
     private Long id;
